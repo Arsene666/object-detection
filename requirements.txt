@@ -1,2 +1,21 @@
-fastapi
-uvicorn[standard]
+# ─────────────────────────────────────────────
+# requirements.txt
+# Versions testées pour HF Spaces CPU (mars 2025)
+# ─────────────────────────────────────────────
+ 
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9      # Requis pour UploadFile
+ 
+# Deep Learning — CPU uniquement (pas de cuda)
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+ 
+# Traitement d'image
+Pillow==10.3.0
+ 
+# Utilitaires
+numpy==1.26.4
+ 
