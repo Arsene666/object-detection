@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # Chemin vers le fichier de poids
 # Priorité : variable d'environnement → valeur par défaut locale
 # ─────────────────────────────────────────────
-MODEL_PATH = os.getenv("MODEL_PATH", "weights/fasterrcnn_checkpoint.pth")
+MODEL_PATH = os.getenv("MODEL_PATH", "weights/model.pth")
  
 # Dictionnaire global pour stocker le modèle en mémoire
 # (évite de le recharger à chaque requête)
