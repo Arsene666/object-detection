@@ -6,7 +6,7 @@
 FROM python:3.10-slim
  
 # Métadonnées
-LABEL maintainer="ton_nom"
+LABEL maintainer="Arsene_Godonou"
 LABEL description="Faster R-CNN Object Detection API — FastAPI + PyTorch CPU"
  
 # ── Variables d'environnement ──────────────────
