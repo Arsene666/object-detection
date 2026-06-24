@@ -4,14 +4,14 @@ A production-ready REST API for object detection using a deep learning model bas
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project demonstrates how to deploy a deep learning model as a scalable API.
 It allows users to send an image and receive detected objects with their bounding boxes, labels, and confidence scores.
 
 ---
 
-## 🧠 Use Cases
+## Use Cases
 
 * Object detection in images
 * Fruit recognition (custom dataset)
@@ -22,11 +22,11 @@ It allows users to send an image and receive detected objects with their boundin
 
 ## Demo
 
-![Demo](Sreenshot.png)
+![Demo](Screenshot.png)
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 * Backend: FastAPI (Python)
 * Machine Learning: PyTorch (CPU)
@@ -38,7 +38,7 @@ It allows users to send an image and receive detected objects with their boundin
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/Arsene666/Classifier-api.git
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the project
+## Run the project
 
 ```bash
 uvicorn main:app --reload
@@ -56,7 +56,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🔥 Example Request
+## Example Request
 
 ```bash
 POST /predict (multipart/form-data)
@@ -65,7 +65,7 @@ file: image.jpg
 
 ---
 
-## 📊 Example Response
+## Example Response
 
 ```json
 {
@@ -80,7 +80,7 @@ file: image.jpg
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -92,7 +92,7 @@ file: image.jpg
 
 ---
 
-## 🧪 Model Details
+## Model Details
 
 * Architecture: Faster R-CNN with ResNet-50 FPN backbone
 * Framework: PyTorch
@@ -111,7 +111,7 @@ file: image.jpg
 
 ---
 
-## 🧪 Future Improvements
+## Future Improvements
 
 * Add training pipeline notebook
 * Add evaluation metrics (mAP, precision, recall)
@@ -121,6 +121,6 @@ file: image.jpg
 
 ---
 
-## 👤 Author
+## Author
 
 Arsène
