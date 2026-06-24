@@ -20,6 +20,12 @@ It allows users to send an image and receive detected objects with their boundin
 
 ---
 
+## Demo
+
+![Demo](Sreenshot.png)
+
+---
+
 ## 🏗️ Tech Stack
 
 * Backend: FastAPI (Python)
